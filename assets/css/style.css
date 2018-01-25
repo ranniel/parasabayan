@@ -181,7 +181,7 @@ p{
 
 .item {
   transition: none !important;
-  left: 0 !important;
+  /*left: 0 !important;*/
   transform: none !important;
 }
 .animated {
