@@ -1,0 +1,347 @@
+@media screen and (max-width:1199px){
+	.home1_timer .timer_clock {
+		padding-right: 0;
+	}	
+}/*max-width:1199px*/
+
+@media screen and (max-width:992px){
+	nav.navbar.bootsnav .navbar-toggle {
+		margin-top: 15px;
+		color: #033566;
+	} 
+	.home1_main_menu .navbar-brand {
+		height: 70px;
+		padding: 15px;
+	}
+	.home1_main_menu .navbar.bootsnav ul.nav > li > a {
+		padding: 10px;
+	}
+	.home1_main_menu .minister_button {
+		padding-left: 0;
+		padding-bottom: 15px;
+		top:15px;
+	}
+	.home1_timer .timer_clock {
+		float: none;
+		text-align: center;
+	}
+
+	.timer_clock,
+	.timer_txt{
+		max-width:700px;
+		margin:auto;
+		
+	}
+	.timer_clock {
+		margin-top: 30px!important;
+	}	
+	.event_overlay_txt h4 {
+		margin: 30px 0 20px;
+	}
+	.home1_donation_form{
+		max-width: 700px;
+		margin: auto;
+		margin-bottom:30px;
+	}
+	.home1_donation_video img {
+		width: 100%;
+		height: auto;
+	}	
+	#about_testimonial .owl-carousel .owl-nav .owl-prev {
+		right: 10%;
+	}
+	#about_testimonial .owl-carousel .owl-nav .owl-next {
+		left: 10%;
+	}
+	.page_widget .media {
+		margin-top: 30px;
+		display: grid;
+	}
+	.event_overlay  .time{
+		font-size:30px;
+	}
+	.event_campaign .event_txt {
+		padding: 5px;
+	}
+	.event_single_welcome_img {
+		margin-top: 30px;
+	}
+	.event_single_welcome img {
+		height: auto;
+	}
+}/*max-width:992px*/
+
+@media screen and (max-width:767px){
+	.home1_mission_content_single {
+		text-align: center;
+	}
+	.home1_donation_form{
+		max-width: 400px;
+	}
+	.home1_newsletter_input, 
+	.home1_newsletter_text {
+		float: none;
+		max-width: 400px;
+		margin: auto;
+		margin-top: 30px;
+		text-align: center;
+	}	
+	#about_testimonial .owl-carousel .owl-nav .owl-next,
+	#about_testimonial .owl-carousel .owl-nav .owl-prev {
+		display:none;
+	}
+	.blog_sidebar {
+		margin-left: 0;
+	}
+	.blog_sidebar.page_left_sidebar,
+	.page_left_content.page_content_all	{
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.page_widget .media {
+		margin-top: 30px;
+		display: block;
+	}
+	.blog_pagination .pagination {
+		margin: 50px 0 30px 0px;
+		border-radius: 0;
+	}
+	.event_overlay  .time {
+		padding: 0 15px 0;
+	}
+	
+}/*max-width:767px*/
+
+@media screen and (max-width:640px){
+	.time{
+		padding:0 28px 0;
+	}
+	.home_footer {
+		padding: 30px 0;
+	}
+	.home1_section_heading h2 {
+	    line-height: 48px;
+	}
+	#home1_mission.section_padding3,
+	#home1_conference.section_padding,
+	#home1_gallery.section_padding3,
+	#home1_news.section_padding3,
+	#about_mission.section_padding3,	
+	#donation_amount,
+	.volunteer_form.donation_amount.section_padding	,
+	#members_content.section_padding3,
+	#event_campaign.section_padding3,
+	#upcoming_events.section_padding3,
+	#event_single_welcome.section_padding3,
+	#event_member.section_padding3,
+	#event_agenda.section_padding3{
+		padding: 80px 0 60px;
+	}	
+	#donation_content,
+	#sara_smith_content.section_padding2,
+	#blog_grid.section_padding2,
+	#page_content.section_padding2,
+	#blog_sidebar.section_padding2,
+	#issues_sidebar.section_padding2,
+	#upcoming_events.section_padding2{
+		padding: 50px 0 60px;
+	}
+	.home1_volunteer{
+		padding: 80px 0 0;
+	}
+	
+	#about_member.section_padding	{
+		padding: 0px 0 60px;
+	}
+	.donation_header.home1_section_heading {
+		padding: 80px 0 5px;
+	}
+	.donation_header.home1_section_heading h2,
+	.donation_amount .home1_section_heading h2,
+	.page_banner .banner_txt h2,
+	.blog_banner .banner_txt h2,
+	.event_single_welcome .home1_section_heading h2,
+	.event_timer_clock h2,
+	.event_timer_clock  .time{
+		font-size: 30px;
+	}
+	.home1_donation_video .play-icon i {
+		font-size: 50px;
+	}
+	.home1_donation_video .play-icon {
+		position: absolute;
+		top: 40%;
+	}
+	.about_testimonial_txt {
+		max-width: 300px;
+	}
+	.about_mission_txt .nav-tabs>li {
+		margin-top: 10px;
+	}
+	.about_mission,
+	.home1_donation_form .form-group,
+	.page_content ,
+	.blog_sidebar,
+	.sara_smith_content,
+	.event_single_welcome_img{
+		max-width: 400px;
+		margin: auto;
+		margin-top: 30px;
+	}
+	.sara_smith_content,
+	.event_single_welcome_txt{
+		max-width: 400px;
+		margin: auto;
+	}
+	.home1_gallery_images {
+		margin-top: 30px;
+	}
+	.about_testimonial_txt p:before {
+		content: "\f10d";
+		top: 50%;
+	}
+	.page_content_text h2 {
+		font-size: 25px;
+	}
+	.event_overlay .timer_clock {
+		display: none;
+	}
+	.event_overlay_txt .event_address {
+		font-size: 12px;
+	}
+	.event_overlay_txt h2 {
+		font-size: 26px;
+	}
+	
+}/*max-width:640px*/
+@media screen and (max-width:480px){
+	.home1_section_heading h2,
+	.sara_smith_txt h2	{
+		font-size: 30px;
+	}
+	.banner_content_border h3,
+	.banner_content_border p	{
+		font-size: 19px;
+	}
+	.banner_content_border {
+		padding: 50px 25px 70px 30px;
+	}
+	#home1_timer {
+		padding: 35px 0 0px;
+	}
+	.time{
+		margin-bottom:30px;
+	}
+	.home1_conference_txt {
+		padding: 20px 0 35px 15px;
+	}
+	.home1_conference_txt p span{
+		padding-left:12px;
+	}
+	.home1_mission_content {
+		padding-top: 0;
+	}
+	.gallery_icon [class^="flaticon-"]:before, 
+	.gallery_icon [class*=" flaticon-"]:before, 
+	.gallery_icon [class^="flaticon-"]:after, 
+	.gallery_icon [class*=" flaticon-"]:after {
+		font-family: Flaticon;
+		font-size: 20px;
+	}
+	.home1_newsletter_text h2 {
+		font-size: 30px;
+	}
+	.home1_newsletter_input .form-control {
+		font-size: 10px;
+		padding: 19px 0;
+	}
+	.home1_newsletter_input .btn {
+		font-size: 10px;
+	}
+	.political_resume_content .resume_date {
+		margin-top: 60px;
+	}
+	.resume_description_txt {
+		padding: 15px 20px;
+	}
+	.political_resume_content ul li:nth-child(even) .resume_description_txt {
+		margin-left: 40px;
+	}
+	.political_resume_content ul li:nth-child(odd) .resume_description_txt {
+		margin-right: 40px;
+	}
+	.donation_txt h2,
+	.page_content_text h2,
+	.blog_readmore_single h3{
+		font-size: 18px;
+	}
+	.page_banner .banner_txt h2,
+	.blog_banner .banner_txt h2,
+	.issues_banner .banner_txt h2 {
+		font-size: 28px;
+	}
+	.issues_grid_txt {
+		padding: 0;
+	}
+	.event_campaign {
+		padding-top: 40px;
+	}
+	.event_campaign .event_txt {
+		padding: 0 0 22px 38px;
+	}
+	.event_timer_clock  .time:after{
+		display:none;
+	}
+	.event_timer_clock h3 {
+		margin-top: 0;
+		font-size: 15px;
+	}
+	.event_timer_clock {
+		transform: translateY(30%);
+	}
+}/*max-width:480px*/
+
+@media screen and (max-width:320px){
+	/* Home1	 */
+	.content_margin,
+	#event_member .content_margin,
+	#upcoming_events .content_margin, 
+	#event_agenda .content_margin {
+		margin-top: 0;
+	}
+	{
+		margin-top: 0;
+	}
+	.banner_content_text h3,
+	.banner_content_border p	{
+		font-size: 14px;
+		line-height: 24px;
+	}
+	.banner_content_border h3:before {
+		content: "\f10d";
+		top: -18px;
+		font-size:40px;
+	}
+	.banner_content_border {
+		border: 3px solid #ebeaea;
+		padding: 25px 10px 50px 30px;
+	}
+	.banner_content_text {
+		height: 560px;
+		top: 0;
+	}
+	#political_resume{
+		display:none;
+	}
+	.about_mission_txt .nav-tabs>li {
+		margin-right: 30px;
+	}
+	.issues_grid_txt.issues_inner_txt .issues_ptext{
+		font-size: 18px;
+	}
+	.issues_grid_txt.issues_inner_txt h4,.event_single_welcome .home1_section_heading h2 {
+		font-size: 22px;
+	}
+}
+
+
