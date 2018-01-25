@@ -1,12 +1,12 @@
 ﻿<!DOCTYPE html>
 <html>
 	
-<!-- Mirrored from demos.lsvr.sk/townpress.html/demo/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 24 Jan 2018 00:06:34 GMT -->
+<!-- Mirrored from demos.lsvr.sk/townpress.html/demo/home-2.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 24 Jan 2018 00:04:50 GMT -->
 <head>
 
 		<meta http-equiv="content-type" content="text/html; charset=utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>TownPress - Municipality HTML Template</title>
+        <title>Home 2 | TownPress - Municipality HTML Template</title>
         <link rel="shortcut icon" href="images/favicon.png">
 
 		<!-- GOOGLE FONTS : begin -->
@@ -15,12 +15,10 @@
 
         <!-- STYLESHEETS : begin -->
 		<link rel="stylesheet" type="text/css" href="library/css/style.css">
-		<!-- To change to a different pre-defined color scheme, change "red.css" in the following element to blue.css | bluegray.css | green.css | orange.css
-		Please refer to the documentation to learn how to create your own color schemes -->
         <link rel="stylesheet" type="text/css" href="library/css/skin/red.css">
 		<link rel="stylesheet" type="text/css" href="library/css/custom.css">
 		<!--[if lte IE 9]>
-		<link rel="stylesheet" type="text/css" href="library/css/oldie.css">
+		<link rel="stylesheet" type="text/css" href="library/css/oldie.css" />
 		<![endif]-->
 		<!-- STYLESHEETS : end -->
 
@@ -28,9 +26,8 @@
 	<body>
 
 		<!-- HEADER : begin -->
-		<!-- If you want to use Standard Header Menu, add "m-has-standard-menu" class to the following element (see home-2.html template for example)
-		Remove "m-has-gmap" class if you are not using Google Map in this template -->
-		<header id="header" class="m-has-header-tools m-has-gmap">
+		<!-- Remove "m-has-gmap" class if you are not using Google Map in this template -->
+		<header id="header" class="m-has-standard-menu m-has-header-tools m-has-gmap">
 			<div class="header-inner">
 
 				<!-- HEADER CONTENT : begin -->
@@ -76,10 +73,10 @@
 							and standard header menu (only if Header element has "m-has-standard-menu" class) -->
 							<nav class="header-menu">
 								<ul>
-									<li><a href="index.html">Home</a>
+									<li class="m-active"><a href="index.html">Home</a>
 										<ul>
 											<li><a href="index.html">Home 1</a></li>
-											<li><a href="home-2.html">Home 2</a></li>
+											<li class="m-active"><a href="home-2.html">Home 2</a></li>
 										</ul>
 									</li>
 									<li><a href="town-hall.html">Government</a>
@@ -166,11 +163,11 @@
 		<div class="header-bg">
 
 			<!-- HEADER IMAGE : begin -->
-			<!-- To add more images just copy and edit elements with "image-layer" class (see home-2.html template for example)
+			<!-- To add more images just copy and edit elements with "image-layer" class
 			Change autoplay speed with "data-autoplay" attribute (in seconds), works only if there are more than one image -->
 			<div class="header-image" data-autoplay="8">
 				<div class="image-layer" style="background-image: url( 'images/header-01.jpg' );"></div>
-				<!-- div class="image-layer" style="background-image: url( 'images/header-02.jpg' );"></div -->
+				<div class="image-layer" style="background-image: url( 'images/header-02.jpg' );"></div>
 			</div>
 			<!-- HEADER IMAGE : begin -->
 
@@ -183,153 +180,370 @@
 				<div class="row">
 
 					<!-- MIDDLE COLUMN : begin -->
-					<div class="middle-column col-md-6 col-md-push-3">
-
-						<!-- PAGE HEADER : begin -->
-						<div id="page-header">
-
-							<!-- PAGE TITLE : begin -->
-							<div class="page-title">
-								<h1>Welcome to TownPress,<br><em>the Most Exciting Town of Northeast!</em></h1>
-							</div>
-							<!-- PAGE TITLE : end -->
-
-						</div>
-						<!-- PAGE HEADER : end -->
+					<div class="middle-column col-md-9 col-md-push-3">
 
 						<!-- PAGE CONTENT : begin -->
 						<div id="page-content">
 							<div class="page-content-inner">
 
-								<!-- DIRECTORY : begin -->
-								<!-- You can choose to have 2, 3 or 4 columns in Directory element.
-								To change the number of columns, change the class in the following element from m-3-columns to m-2-columns or m-4-columns -->
-								<div class="c-directory m-has-icon m-3-columns">
-									<div class="c-content-box">
-										<div class="directory-inner">
-											<i class="ico-shadow tp tp-road-sign"></i>
-											<h2 class="directory-title"><i class="ico tp tp-road-sign"></i>Choose <strong>Your Interest</strong></h2>
-											<div class="directory-content">
-												<nav class="directory-menu">
-													<ul>
-														<li><a href="town-hall.html">Government</a>
-															<ul>
-																<li><a href="town-hall.html">Town Hall</a></li>
-																<li><a href="town-council.html">Town Council</a></li>
-																<li><a href="home-2.html">Alternative Home</a></li>
-															</ul>
-														</li>
-														<li><a href="post-list.html">Community</a>
-															<ul>
-																<li><a href="post-list.html">TownPress News</a></li>
-																<li><a href="post-list.html">Public Notices</a></li>
-																<li><a href="document-list.html">Town Documents</a></li>
-															</ul>
-														</li>
-														<li><a href="statistics.html">About Our Town</a>
-															<ul>
-																<li><a href="statistics.html">Statistics</a></li>
-																<li><a href="town-history.html">Town History</a></li>
-																<li><a href="virtual-tour.html">Virtual Tour</a></li>
-															</ul>
-														</li>
-														<li><a href="event-list.html">Relax</a>
-															<ul>
-																<li><a href="event-list.html">Upcoming Events</a></li>
-																<li><a href="gallery-list-html.html">Photo Galleries</a></li>
-																<li><a href="#">Facebook Page</a></li>
-															</ul>
-														</li>
-														<li><a href="contact.html">Get In Touch</a>
-															<ul>
-																<li><a href="contact.html">Write To Mayor</a></li>
-																<li><a href="phone-numbers-2.html">Phone Numbers</a></li>
-																<li><a href="#">Twitter Profile</a></li>
-															</ul>
-														</li>
-														<li><a href="http://themeforest.net/user/LSVRthemes/portfolio">TownPress Template</a>
-															<ul>
-																<li><a href="http://themeforest.net/user/LSVRthemes/portfolio">Purchase TownPress</a></li>
-																<li><a href="http://themeforest.net/user/LSVRthemes/portfolio">WordPress Version</a></li>
-																<li><a href="http://demos.lsvr.sk/townpress.html/documentation/">Documentation</a></li>
-															</ul>
-														</li>
-													</ul>
-												</nav>
-											</div>
-										</div>
-									</div>
-								</div>
-								<!-- DIRECTORY : end -->
+								<!-- SLIDER : begin -->
+								<!-- If you want to have single BG image for all slides,
+								just add style="background-image: url( 'url-to-your-image.jpg' );" to the following element
+								(and remove "style" attributes from all "slide" elements) -->
+								<div class="c-slider" data-autoplay="8">
+									<div class="slide-list">
 
-								<!-- POST LIST : begin -->
-								<div class="c-post-list m-has-icon">
-									<div class="c-content-box">
-										<div class="post-list-inner">
-											<i class="ico-shadow tp tp-reading"></i>
-											<h2 class="post-list-title"><i class="ico tp tp-reading"></i><a href="post-list.html">TownPress <strong>News</strong></a></h2>
-											<div class="post-list-content">
+										<!-- SLIDE : begin -->
+										<div class="slide" style="background-image: url( 'images/slide-01.jpg' );">
+											<div class="slide-inner">
+												<!-- You can change vertical align of the content with the following classes valign-top | valign-middle | valign-bottom -->
+												<div class="slide-content valign-bottom">
 
-												<!-- FEATURED POST : begin -->
-												<article class="featured-post m-has-thumb">
-													<div class="post-image">
-														<a href="post-detail.html"><img src="images/post-01-cropped.jpg" alt=""></a>
-													</div>
-													<div class="post-core">
-														<h3 class="post-title">
-															<a href="post-detail.html">Report from Friendly Soccer Match between TownPress and PressTown</a>
-														</h3>
-														<div class="post-date"><i class="ico tp tp-clock2"></i>August 23, 2015</div>
-														<div class="post-excerpt">
-															<p>Football refers to a number of sports that involve, to varying degrees, kicking a ball with the foot to score a goal. Unqualified, the word football is understood to refer to whichever form of football is the most popular in the regional context in which the word appears.</p>
+													<div class="row">
+														<div class="col-md-6 col-md-push-6">
+															<h2><a href="post-detail.html">TownPress Half Marathon Draws over 500 Runners</a></h2>
+															<h3>A half marathon is a road running event of 21.0975 kilometres (13.1094 mi). It is half the distance of a marathon and usually run on roads.</h3>
 														</div>
 													</div>
-												</article>
-												<!-- FEATURED POST : end -->
 
-												<!-- POST : begin -->
-												<article class="post">
-													<h3 class="post-title">
-														<a href="post-detail.html">New Housing Complex in TownPress Nearly Complete</a>
-													</h3>
-													<div class="post-date">July 6, 2015</div>
-												</article>
-												<!-- POST : end -->
-
-												<!-- POST : begin -->
-												<article class="post">
-													<h3 class="post-title">
-														<a href="post-detail.html">This Year’s Summer Rock Festival Draws More Than 1000 Fans</a>
-													</h3>
-													<div class="post-date">June 15, 2015</div>
-												</article>
-												<!-- POST : end -->
-
-												<!-- POST : begin -->
-												<article class="post">
-													<h3 class="post-title">
-														<a href="post-detail.html">10 Things You Didn’t Know About our Town</a>
-													</h3>
-													<div class="post-date">June 2, 2015</div>
-												</article>
-												<!-- POST : end -->
-
-												<!-- POST : begin -->
-												<article class="post">
-													<h3 class="post-title">
-														<a href="post-detail.html">Report From Monday’s Financial Town Meeting</a>
-													</h3>
-													<div class="post-date">May 14, 2015</div>
-												</article>
-												<!-- POST : end -->
-
-												<p class="more-btn-holder"><a href="post-list.html">Read All Posts</a></p>
-
+												</div>
 											</div>
+
 										</div>
+										<!-- SLIDE : end -->
+
+										<!-- SLIDE : begin -->
+										<div class="slide" style="background-image: url( 'images/slide-02.jpg' );">
+											<div class="slide-inner">
+												<div class="slide-content valign-bottom">
+
+													<div class="row">
+														<div class="col-md-6">
+															<h2><a href="post-detail.html">Town Cinema to Screen Indie Movies for the Whole Summer</a></h2>
+															<h3>An independent film is a film production resulting in a feature film that is produced mostly or completely outside of the major film studio system.</h3>
+														</div>
+													</div>
+
+												</div>
+											</div>
+
+										</div>
+										<!-- SLIDE : end -->
+
+										<!-- SLIDE : begin -->
+										<div class="slide" style="background-image: url( 'images/slide-03.jpg' );">
+											<div class="slide-inner">
+												<div class="slide-content valign-bottom">
+
+													<div class="row">
+														<div class="col-md-6 col-md-push-6">
+															<h2><a href="post-detail.html">Travel Tips: America’s 20 Best National Parks</a></h2>
+															<h3>A national park is a park in use for conservation purposes. Often it is a reserve of natural, semi-natural, or developed land that a sovereign state declares or owns.</h3>
+														</div>
+													</div>
+
+												</div>
+											</div>
+
+										</div>
+										<!-- SLIDE : end -->
+
 									</div>
 								</div>
-								<!-- POST LIST : end -->
+								<!-- SLIDER : end -->
+
+								<div class="row">
+									<div class="col-md-6">
+
+										<!-- POST LIST : begin -->
+										<div class="c-post-list m-has-icon">
+											<div class="c-content-box">
+												<div class="post-list-inner">
+													<i class="ico-shadow tp tp-man-woman"></i>
+													<h2 class="post-list-title"><i class="ico tp tp-man-woman"></i><a href="post-list.html">Community</a></h2>
+													<div class="post-list-content">
+
+														<!-- FEATURED POST : begin -->
+														<article class="featured-post m-has-thumb">
+															<div class="post-image">
+																<a href="post-detail.html"><img src="images/post-02-cropped.jpg" alt=""></a>
+															</div>
+															<div class="post-core">
+																<h3 class="post-title">
+																	<a href="post-detail.html">New Housing Complex in TownPress Nearly Complete</a>
+																</h3>
+																<div class="post-date"><i class="ico tp tp-clock2"></i>August 23, 2015</div>
+																<div class="post-excerpt">
+																	<p>The process often starts with a planning stage in which plans are prepared by an architect and approved by the client and any regulatory authority. Then the site is cleared and foundations are laid and established.</p>
+																</div>
+															</div>
+														</article>
+														<!-- FEATURED POST : end -->
+
+														<!-- POST : begin -->
+														<article class="post">
+															<h3 class="post-title">
+																<a href="post-detail.html">Report From Monday’s Financial Town Meeting</a>
+															</h3>
+															<div class="post-date">July 6, 2015</div>
+														</article>
+														<!-- POST : end -->
+
+														<!-- POST : begin -->
+														<article class="post">
+															<h3 class="post-title">
+																<a href="post-detail.html">2015 Municipal Election Results</a>
+															</h3>
+															<div class="post-date">June 15, 2015</div>
+														</article>
+														<!-- POST : end -->
+
+														<!-- POST : begin -->
+														<article class="post">
+															<h3 class="post-title">
+																<a href="post-detail.html">Interview with Town Clerk Aleksander Pim</a>
+															</h3>
+															<div class="post-date">June 2, 2015</div>
+														</article>
+														<!-- POST : end -->
+
+														<!-- POST : begin -->
+														<article class="post">
+															<h3 class="post-title">
+																<a href="post-detail.html">Job Opportunity: Police Chief</a>
+															</h3>
+															<div class="post-date">May 14, 2015</div>
+														</article>
+														<!-- POST : end -->
+
+														<p class="more-btn-holder"><a href="post-list.html">Read All Posts</a></p>
+
+													</div>
+												</div>
+											</div>
+										</div>
+										<!-- POST LIST : end -->
+
+									</div>
+									<div class="col-md-6">
+
+										<!-- POST LIST : begin -->
+										<div class="c-post-list m-has-icon">
+											<div class="c-content-box">
+												<div class="post-list-inner">
+													<i class="ico-shadow tp tp-library2"></i>
+													<h2 class="post-list-title"><i class="ico tp tp-library2"></i><a href="post-list.html">Culture</a></h2>
+													<div class="post-list-content">
+
+														<!-- FEATURED POST : begin -->
+														<article class="featured-post m-has-thumb">
+															<div class="post-image">
+																<a href="post-detail.html"><img src="images/post-03-cropped.jpg" alt=""></a>
+															</div>
+															<div class="post-core">
+																<h3 class="post-title">
+																	<a href="post-detail.html">This Year’s Summer Rock Festival Draws More Than 1000 Fans</a>
+																</h3>
+																<div class="post-date"><i class="ico tp tp-clock2"></i>October 16, 2015</div>
+																<div class="post-excerpt">
+																	<p>A rock festival, considered synonymous with pop festival, is considered to be a large-scale rock music concert, featuring multiple acts performing an often diverse range of popular music including rock, pop, folk, electronic, and related genres.</p>
+																</div>
+															</div>
+														</article>
+														<!-- FEATURED POST : end -->
+
+														<!-- POST : begin -->
+														<article class="post">
+															<h3 class="post-title">
+																<a href="post-detail.html">Town Cinema to Screen Indie Movies</a>
+															</h3>
+															<div class="post-date">August 21, 2015</div>
+														</article>
+														<!-- POST : end -->
+
+														<!-- POST : begin -->
+														<article class="post">
+															<h3 class="post-title">
+																<a href="post-detail.html">Town Theatre to Host Romeo and Juliet Musical</a>
+															</h3>
+															<div class="post-date">June 9, 2015</div>
+														</article>
+														<!-- POST : end -->
+
+														<!-- POST : begin -->
+														<article class="post">
+															<h3 class="post-title">
+																<a href="post-detail.html">Interview with Photographer Steffan Zoticus</a>
+															</h3>
+															<div class="post-date">May 16, 2015</div>
+														</article>
+														<!-- POST : end -->
+
+														<!-- POST : begin -->
+														<article class="post">
+															<h3 class="post-title">
+																<a href="post-detail.html">Report from Contemporary Art Exhibition in Town Hall</a>
+															</h3>
+															<div class="post-date">March 4, 2015</div>
+														</article>
+														<!-- POST : end -->
+
+														<p class="more-btn-holder"><a href="post-list.html">Read All Posts</a></p>
+
+													</div>
+												</div>
+											</div>
+										</div>
+										<!-- POST LIST : end -->
+
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-md-6">
+
+										<!-- POST LIST : begin -->
+										<div class="c-post-list m-has-icon">
+											<div class="c-content-box">
+												<div class="post-list-inner">
+													<i class="ico-shadow tp tp-tennis2"></i>
+													<h2 class="post-list-title"><i class="ico tp tp-tennis2"></i><a href="post-list.html">Sport</a></h2>
+													<div class="post-list-content">
+
+														<!-- FEATURED POST : begin -->
+														<article class="featured-post m-has-thumb">
+															<div class="post-image">
+																<a href="post-detail.html"><img src="images/post-01-cropped.jpg" alt=""></a>
+															</div>
+															<div class="post-core">
+																<h3 class="post-title">
+																	<a href="post-detail.html">Report From Friendly Soccer Match Between TownPress And PressTown</a>
+																</h3>
+																<div class="post-date"><i class="ico tp tp-clock2"></i>September 24, 2015</div>
+																<div class="post-excerpt">
+																	<p>Football refers to a number of sports that involve, to varying degrees, kicking a ball with the foot to score a goal. Unqualified, the word football is understood to refer to whichever form of football is the most popular in the regional context in which the word appears.</p>
+																</div>
+															</div>
+														</article>
+														<!-- FEATURED POST : end -->
+
+														<!-- POST : begin -->
+														<article class="post">
+															<h3 class="post-title">
+																<a href="post-detail.html">TownPress Half Marathon Draws over 500 Runners</a>
+															</h3>
+															<div class="post-date">July 6, 2015</div>
+														</article>
+														<!-- POST : end -->
+
+														<!-- POST : begin -->
+														<article class="post">
+															<h3 class="post-title">
+																<a href="post-detail.html">Famous Mountain Bike Trails Near TownPress</a>
+															</h3>
+															<div class="post-date">June 15, 2015</div>
+														</article>
+														<!-- POST : end -->
+
+														<!-- POST : begin -->
+														<article class="post">
+															<h3 class="post-title">
+																<a href="post-detail.html">Results of Annual Table Tennis Tournament</a>
+															</h3>
+															<div class="post-date">June 2, 2015</div>
+														</article>
+														<!-- POST : end -->
+
+														<!-- POST : begin -->
+														<article class="post">
+															<h3 class="post-title">
+																<a href="post-detail.html">Interview with Arm Wrestler Tone Vilhelmas</a>
+															</h3>
+															<div class="post-date">May 14, 2015</div>
+														</article>
+														<!-- POST : end -->
+
+														<p class="more-btn-holder"><a href="post-list.html">Read All Posts</a></p>
+
+													</div>
+												</div>
+											</div>
+										</div>
+										<!-- POST LIST : end -->
+
+									</div>
+									<div class="col-md-6">
+
+										<!-- POST LIST : begin -->
+										<div class="c-post-list m-has-icon">
+											<div class="c-content-box">
+												<div class="post-list-inner">
+													<i class="ico-shadow tp tp-teacup"></i>
+													<h2 class="post-list-title"><i class="ico tp tp-teacup"></i><a href="post-list.html">Relax</a></h2>
+													<div class="post-list-content">
+
+														<!-- FEATURED POST : begin -->
+														<article class="featured-post m-has-thumb">
+															<div class="post-image">
+																<a href="post-detail.html"><img src="images/post-04-cropped.jpg" alt=""></a>
+															</div>
+															<div class="post-core">
+																<h3 class="post-title">
+																	<a href="post-detail.html">10 Things You Didn’t Know About Our Town</a>
+																</h3>
+																<div class="post-date"><i class="ico tp tp-clock2"></i>August 18, 2015</div>
+																<div class="post-excerpt">
+																	<p>One of the New Hampshire Grants, Middlebury was chartered by Colonial Governor Benning Wentworth on November 2, 1761. The name "Middlebury" came from its location between the towns of Salisbury and New Haven. It was awarded to John Evarts and 62 others.</p>
+																</div>
+															</div>
+														</article>
+														<!-- FEATURED POST : end -->
+
+														<!-- POST : begin -->
+														<article class="post">
+															<h3 class="post-title">
+																<a href="post-detail.html">Holiday Reading: The Best Books to Read This Summer</a>
+															</h3>
+															<div class="post-date">August 21, 2015</div>
+														</article>
+														<!-- POST : end -->
+
+														<!-- POST : begin -->
+														<article class="post">
+															<h3 class="post-title">
+																<a href="post-detail.html">Guide: How to Pick the Perfect Gift for Your Partner</a>
+															</h3>
+															<div class="post-date">June 9, 2015</div>
+														</article>
+														<!-- POST : end -->
+
+														<!-- POST : begin -->
+														<article class="post">
+															<h3 class="post-title">
+																<a href="post-detail.html">Win a Wonderful Weekend for Two at TownPress Hotel</a>
+															</h3>
+															<div class="post-date">May 16, 2015</div>
+														</article>
+														<!-- POST : end -->
+
+														<!-- POST : begin -->
+														<article class="post">
+															<h3 class="post-title">
+																<a href="post-detail.html">Report from Contemporary Art Exhibition in Town Hall</a>
+															</h3>
+															<div class="post-date">March 4, 2015</div>
+														</article>
+														<!-- POST : end -->
+
+														<p class="more-btn-holder"><a href="post-list.html">Read All Posts</a></p>
+
+													</div>
+												</div>
+											</div>
+										</div>
+										<!-- POST LIST : end -->
+
+									</div>
+								</div>
 
 							</div>
 						</div>
@@ -341,111 +555,61 @@
 					<!-- MIDDLE COLUMN : end -->
 
 					<!-- LEFT COLUMN : begin -->
-					<div class="left-column col-md-3 col-md-pull-6">
-
-						<!-- SIDE MENU : begin -->
-						<nav class="side-menu m-left-side m-show-submenu">
-							<ul>
-								<li><a href="index.html">Home</a>
-									<ul>
-										<li><a href="index.html">Home 1</a></li>
-										<li><a href="home-2.html">Home 2</a></li>
-									</ul>
-								</li>
-								<li><a href="town-hall.html">Government</a>
-									<ul>
-										<li><a href="town-hall.html">Town Hall</a></li>
-										<li><a href="town-council.html">Town Council</a></li>
-										<li><a href="phone-numbers.html">Phone Numbers</a></li>
-										<li><a href="document-list.html">Documents</a></li>
-										<li><a href="contact.html">Write To Mayor</a></li>
-									</ul>
-								</li>
-								<li><a href="post-list.html">Community</a>
-									<ul>
-										<li><a href="post-list.html">News</a></li>
-										<li><a href="notice-list.html">Notices</a></li>
-										<li><a href="event-list.html">Events</a></li>
-										<li><a href="gallery-list.html">Galleries</a></li>
-									</ul>
-								</li>
-								<li><a href="statistics.html">Pages</a>
-									<ul>
-										<li><a href="statistics.html">Statistics</a></li>
-										<li><a href="virtual-tour.html">Virtual Tour</a></li>
-										<li><a href="town-history.html">Town History</a></li>
-										<li><a href="elements.html">Elements</a></li>
-									</ul>
-								</li>
-							</ul>
-						</nav>
-						<!-- SIDE MENU : end -->
+					<div class="left-column col-md-3 col-md-pull-9">
 
 						<!-- LEFT SIDEBAR : begin -->
 						<aside class="sidebar">
 							<div class="widget-list">
 
-								<!-- DOCUMENTS WIDGET : begin -->
-								<div class="widget documents-widget">
+								<!-- NOTICES WIDGET : begin -->
+								<div class="widget notices-widget">
 									<div class="widget-inner">
-										<h3 class="widget-title m-has-ico"><i class="widget-ico tp tp-papers"></i>Documents</h3>
+										<h3 class="widget-title m-has-ico"><i class="widget-ico tp tp-bullhorn"></i>Town Notices</h3>
 										<div class="widget-content">
-											<ul class="document-list m-has-icons">
+											<ul class="notice-list">
 
-												<!-- DOCUMENT : begin -->
-												<li class="document">
-													<div class="document-inner">
-														<div class="document-icon" title="PDF File"><i class="fa fa-file-pdf-o"></i></div>
-														<h4 class="document-title">
-															<a href="documents/dummy-document2.pdf" target="_blank">Council Agenda April 24, 2015</a>
-															<span class="document-filesize">(27 kB)</span>
-														</h4>
+												<!-- NOTICE : begin -->
+												<li class="notice">
+													<div class="notice-inner">
+														<h4 class="notice-title"><a href="notice-detail.html">Annual Marathon Registration</a></h4>
+														<span class="notice-date">May 14, 2015</span>
 													</div>
 												</li>
-												<!-- DOCUMENT : end -->
+												<!-- NOTICE : end -->
 
-												<!-- DOCUMENT : begin -->
-												<li class="document">
-													<div class="document-inner">
-														<div class="document-icon" title="PDF File"><i class="fa fa-file-pdf-o"></i></div>
-														<h4 class="document-title">
-															<a href="documents/dummy-document.pdf" target="_blank">Town Report 2015</a>
-															<span class="document-filesize">(24 kB)</span>
-														</h4>
+												<!-- NOTICE : begin -->
+												<li class="notice">
+													<div class="notice-inner">
+														<h4 class="notice-title"><a href="notice-detail.html">Traffic Safety Notice</a></h4>
+														<span class="notice-date">May 14, 2015</span>
 													</div>
 												</li>
-												<!-- DOCUMENT : end -->
+												<!-- NOTICE : end -->
 
-												<!-- DOCUMENT : begin -->
-												<li class="document">
-													<div class="document-inner">
-														<div class="document-icon" title="Word Document"><i class="fa fa-file-word-o"></i></div>
-														<h4 class="document-title">
-															<a href="documents/dummy-document2.pdf" target="_blank">Police Contract</a>
-															<span class="document-filesize">(27 kB)</span>
-														</h4>
+												<!-- NOTICE : begin -->
+												<li class="notice">
+													<div class="notice-inner">
+														<h4 class="notice-title"><a href="notice-detail.html">Municipal Waste</a></h4>
+														<span class="notice-date">May 14, 2015</span>
 													</div>
 												</li>
-												<!-- DOCUMENT : end -->
+												<!-- NOTICE : end -->
 
-												<!-- DOCUMENT : begin -->
-												<li class="document">
-													<div class="document-inner">
-														<div class="document-icon" title="Word Document"><i class="fa fa-file-word-o"></i></div>
-														<h4 class="document-title">
-															<a href="documents/dummy-document2.pdf" target="_blank">Public Schools Contract</a>
-															<span class="document-filesize">(27 kB)</span>
-														</h4>
+												<!-- NOTICE : begin -->
+												<li class="notice">
+													<div class="notice-inner">
+														<h4 class="notice-title"><a href="notice-detail.html">Upcoming Public Meetings</a></h4>
+														<span class="notice-date">May 14, 2015</span>
 													</div>
 												</li>
-												<!-- DOCUMENT : end -->
+												<!-- NOTICE : end -->
 
 											</ul>
-											<p class="show-all-btn"><a href="document-list.html">See All Documents</a></p>
+											<p class="show-all-btn"><a href="notice-list.html">See All Notices</a></p>
 										</div>
 									</div>
 								</div>
-								<!-- DOCUMENTS WIDGET : end -->
+								<!-- NOTICES WIDGET : end -->
 
 								<!-- LOCALE INFO WIDGET : begin -->
 								<!-- to remove background image from this widget, simply remove "m-has-bg" class from the following element -->
@@ -491,94 +655,6 @@
 									</div>
 								</div>
 								<!-- LOCALE INFO WIDGET : end -->
-
-								<!-- FEATURED GALLERY WIDGET : begin -->
-								<div class="widget featured-gallery-widget">
-									<div class="widget-inner">
-										<h3 class="widget-title m-has-ico"><i class="widget-ico tp tp-pictures"></i>Featured Gallery</h3>
-										<div class="widget-content">
-											<div class="gallery-image" title="Streets of TownPress">
-												<a href="gallery-detail.html"><img src="images/featured-gallery-01.jpg" alt=""></a>
-											</div>
-											<p class="show-all-btn"><a href="gallery-list.html">See All Galleries</a></p>
-            							</div>
-									</div>
-								</div>
-								<!-- FEATURED GALLERY WIDGET : end -->
-
-							</div>
-						</aside>
-						<!-- LEFT SIDEBAR : end -->
-
-					</div>
-					<!-- LEFT COLUMN : end -->
-
-					<!-- RIGHT COLUMN : begin -->
-					<div class="right-column col-md-3">
-
-						<!-- RIGHT SIDEBAR : begin -->
-						<aside class="sidebar">
-							<div class="widget-list">
-
-								<!-- NOTICES WIDGET : begin -->
-								<div class="widget notices-widget">
-									<div class="widget-inner">
-										<h3 class="widget-title m-has-ico"><i class="widget-ico tp tp-bullhorn"></i>Town Notices</h3>
-										<div class="widget-content">
-											<ul class="notice-list">
-
-												<!-- NOTICE : begin -->
-												<li class="notice">
-													<div class="notice-inner">
-														<h4 class="notice-title"><a href="notice-detail.html">Annual Marathon Registration</a></h4>
-														<span class="notice-date">May 14, 2015</span>
-													</div>
-												</li>
-												<!-- NOTICE : end -->
-
-												<!-- NOTICE : begin -->
-												<li class="notice">
-													<div class="notice-inner">
-														<h4 class="notice-title"><a href="notice-detail.html">Traffic Safety Notice</a></h4>
-														<span class="notice-date">July 19, 2015</span>
-													</div>
-												</li>
-												<!-- NOTICE : end -->
-
-												<!-- NOTICE : begin -->
-												<li class="notice">
-													<div class="notice-inner">
-														<h4 class="notice-title"><a href="notice-detail.html">Municipal Waste</a></h4>
-														<span class="notice-date">August 24, 2015</span>
-													</div>
-												</li>
-												<!-- NOTICE : end -->
-
-												<!-- NOTICE : begin -->
-												<li class="notice">
-													<div class="notice-inner">
-														<h4 class="notice-title"><a href="notice-detail.html">Upcoming Public Meetings</a></h4>
-														<span class="notice-date">October 18, 2015</span>
-													</div>
-												</li>
-												<!-- NOTICE : end -->
-
-											</ul>
-											<p class="show-all-btn"><a href="notice-list.html">See All Notices</a></p>
-										</div>
-									</div>
-								</div>
-								<!-- NOTICES WIDGET : end -->
-
-								<!-- IMAGE WIDGET : begin -->
-								<div class="widget image-widget">
-									<div class="widget-inner">
-										<div class="widget-content">
-											<a href="#"><img src="images/poster-01.jpg" alt=""></a>
-										</div>
-									</div>
-								</div>
-								<!-- IMAGE WIDGET : end -->
 
 								<!-- EVENTS WIDGET : begin -->
 								<div class="widget events-widget">
@@ -642,12 +718,39 @@
 								</div>
 								<!-- EVENTS WIDGET : end -->
 
+								<!-- FEATURED GALLERY WIDGET : begin -->
+								<div class="widget featured-gallery-widget">
+									<div class="widget-inner">
+										<h3 class="widget-title m-has-ico"><i class="widget-ico tp tp-pictures"></i>Featured Gallery</h3>
+										<div class="widget-content">
+											<div class="gallery-image" title="Streets of TownPress">
+												<a href="gallery-detail.html"><img src="images/featured-gallery-01.jpg" alt=""></a>
+											</div>
+											<p class="show-all-btn"><a href="gallery-list.html">See All Galleries</a></p>
+            							</div>
+									</div>
+								</div>
+								<!-- FEATURED GALLERY WIDGET : end -->
+
+								<!-- CUSTOM CODE (TWITTER FEED) WIDGET : begin -->
+								<div class="widget custom-code-widget">
+									<div class="widget-inner">
+										<div class="widget-content">
+
+											<!-- You can generate code for your own Twitter Feed in your Twitter Settings under Widgets -->
+											<a class="twitter-timeline" href="https://twitter.com/LSVRthemes" data-widget-id="552135621662474240">Tweets by @LSVRthemes</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+										</div>
+									</div>
+								</div>
+								<!-- CUSTOM CODE (TWITTER FEED) WIDGET : end -->
+
 							</div>
 						</aside>
-						<!-- RIGHT SIDEBAR : end -->
+						<!-- LEFT SIDEBAR : end -->
 
 					</div>
-					<!-- RIGHT COLUMN : end -->
+					<!-- LEFT COLUMN : end -->
 
 				</div>
 			</div>
@@ -870,5 +973,5 @@
 
 	</body>
 
-<!-- Mirrored from demos.lsvr.sk/townpress.html/demo/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 24 Jan 2018 00:06:39 GMT -->
+<!-- Mirrored from demos.lsvr.sk/townpress.html/demo/home-2.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 24 Jan 2018 00:06:11 GMT -->
 </html>
