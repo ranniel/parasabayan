@@ -250,14 +250,14 @@ p{
       .home1_main_menu  .navbar-right .dropdown-menu {
         right: auto;
         left: 10px;
-        
+
     }
     .home1_main_menu .navbar.bootsnav li.dropdown ul.dropdown-menu li > a:hover,
     .home1_main_menu .navbar.bootsnav li.dropdown ul.dropdown-menu li > a.active,
     .home1_main_menu  .navbar.bootsnav ul.nav > li > a:hover,
     .home1_main_menu  .navbar.bootsnav ul.nav > li > a.active{
        color: #f01616;
-       
+
    }
    .home1_main_menu .navbar.bootsnav li.dropdown ul.dropdown-menu > li > a {
     border-bottom: 0;
@@ -356,7 +356,7 @@ p{
 }
 .banner_txt .breadcrumb a {
     color: #ffffff;
-    
+
 }
 .banner_txt .breadcrumb>li+li:before {
     padding: 0 0px;
@@ -403,7 +403,7 @@ p{
 .member_single,
 .upcoming_events_single .member_img,
 #event_agenda  .home1_conference_box {
-    max-width: 400px;
+    max-width: 1000px;
     margin: auto;
     margin-top: 30px;
 }
@@ -2136,7 +2136,7 @@ ul.d_amount {
            width:100%;
            height:360px;	
        }
-       
+
 /*----------------------------------------------------------
 ------------------------------------------------
 			12. Pre-loader Start
