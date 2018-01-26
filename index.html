@@ -6,8 +6,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<meta name="author" content="HighlySucceed">
-	<meta charset='UTF-8'><meta name="robots" content="noindex">
+	<meta name="author" content="">
 
 	<!--Site title -->		
 	<title>#Parasabayan</title>
@@ -16,8 +15,7 @@
 	<link rel="shortcut icon" href="" />
 
 	<!-- font -->
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300i,400,400i,600,600i,700,700i%7cRoboto:400,400i,500,500i,700,700i,900%7cMontserrat:300,300i,400,400i,500,600,700" 
-	rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300i,400,400i,600,600i,700,700i%7cRoboto:400,400i,500,500i,700,700i,900%7cMontserrat:300,300i,400,400i,500,600,700" rel="stylesheet">
 
 	<!-- font awesome -->
 	<link href="assets/css/font-awesome.min.css" rel="stylesheet"/>
@@ -49,13 +47,8 @@
 	<link href="assets/css/responsive.css" rel="stylesheet"/>
 
 	<!-- carousel -->
-	<link rel="shortcut icon" type="image/x-icon" href="//production-assets.codepen.io/assets/favicon/favicon-8ea04875e70c4b0bb41da869e81236e54394d63638a1ef12fa558a4a835f1164.ico" />
-	<link rel="mask-icon" type="" href="//production-assets.codepen.io/assets/favicon/logo-pin-f2d2b6d2c61838f7e76325261b7195c27224080bc099486ddd6dccb469b8e8e6.svg" color="#111" />
-	<link rel="canonical" href="https://codepen.io/ariona/pen/KrRogZ?depth=everything&limit=all&order=popularity&page=67&q=image&show_forks=false" />
-
-	<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css'>
-	<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css'>
-
+	<link rel="stylesheet prefetch" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+	<link rel="stylesheet prefetch" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css">
 </head>
 
 <body> 
@@ -151,32 +144,38 @@
 		</div>
 	</div>		
 	<!-- /.main_menu -->
-	
-	<!-- Carousel start -->
-	<div class="section section-project">
-		<div class="project-carousel">
-			<div class="project-strip">
-				<div class="project"><img src="carouselimg/slider1.jpg" alt=""/></div>
-				<div class="project"><img src="carouselimg/slider2.jpg" alt=""/></div>
-				<div class="project"><img src="carouselimg/slider3.jpg" alt=""/></div>
-				<div class="project"><img src="carouselimg/slider4.jpg" alt=""/></div>
-				<div class="project"><img src="carouselimg/slider5.jpg" alt=""/></div>
-				<div class="project"><img src="carouselimg/slider6.jpg" alt=""/></div>
+
+	<!-- Carousel -->
+	<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+		<!-- Indicators -->
+		<ol class="carousel-indicators">
+			<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+			<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+			<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+		</ol>
+		<!-- Wrapper for slides -->
+		<div class="carousel-inner">
+			<div class="item active">
+				<img src="carouselimg/slider1.jpg" alt="img-responsive">
 			</div>
-			<div class="project-screen">
-				<div class="project-detail">
-					<div class="project"><img src="carouselimg/slider1.jpg" alt=""/></div>
-					<div class="project"><img src="carouselimg/slider2.jpg" alt=""/></div>
-					<div class="project"><img src="carouselimg/slider3.jpg" alt=""/></div>
-					<div class="project"><img src="carouselimg/slider4.jpg" alt=""/></div>
-					<div class="project"><img src="carouselimg/slider5.jpg" alt=""/></div>
-					<div class="project"><img src="carouselimg/slider6.jpg" alt=""/></div>
-				</div>
-				<div class="screen-frame"></div>
+
+			<div class="item">
+				<img src="carouselimg/slider2..jpg" alt="img-responsive">
 			</div>
-		</div>
+
+			<div class="item">
+				<img src="carouselimg/slider3.jpg" alt="img-responsive">
+			</div>
+			
+			<!-- Controls -->
+			<a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+				<span class="glyphicon glyphicon-chevron-left"></span>
+			</a>
+			<a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+				<span class="glyphicon glyphicon-chevron-right"></span>
+			</a>
+		</div><!-- /carousel -->
 	</div>
-	<!-- Carousel End -->
 
 	<!-- Home_1 conference start -->
 	<div id="home1_conference" class="section_padding">
@@ -842,36 +841,9 @@
 	<!-- custom js -->
 	<script type="text/javascript" src="assets/js/custom.js"></script>
 
-	<script src='//production-assets.codepen.io/assets/common/stopExecutionOnTimeout-b2a7b3fe212eaa732349046d8416e00a9dec26eb7fd347590fbced3ab38af52e.js'></script>
+	<script type="text/javascript">
 
-	<script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
-
-	<script src='//production-assets.codepen.io/assets/editor/live/console_runner-079c09a0e3b9ff743e39ee2d5637b9216b3545af0de366d4b9aad9dc87e26bfd.js'></script>
-	<script src='//production-assets.codepen.io/assets/editor/live/events_runner-73716630c22bbc8cff4bd0f07b135f00a0bdc5d14629260c3ec49e5606f98fdd.js'></script>
-	<script src='//production-assets.codepen.io/assets/editor/live/css_live_reload_init-2c0dc5167d60a5af3ee189d570b1835129687ea2a61bee3513dee3a50c115a77.js'></script>
-
-	<script src='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.js'></script>
-
-	<script >$(".project-detail").slick({
-		slidesToShow: 1,
-		arrows: false,
-		asNavFor: '.project-strip',
-		autoplay: true,
-		autoplaySpeed: 3000
-	});
-
-	$(".project-strip").slick({
-		slidesToShow: 5,
-		slidesToScroll: 1,
-		arrows: false,
-		asNavFor: '.project-detail',
-		dots: false,
-		infinite: true,
-		centerMode: true,
-		focusOnSelect: true
-	});
-//# sourceURL=pen.js
-</script>
+	</script>
 
 </body>
 

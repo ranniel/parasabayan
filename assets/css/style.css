@@ -176,87 +176,112 @@ p{
 }
 
 /*----------------------------Caroussel------------------------------------------------------------------*/
-.section-project {
-  padding: 50px 0;
-  position: relative;
-  background-color: #222;
+
+.carousel-indicators .active {
+  background-color: #2980b9;
 }
 
-.section__title, .section__subtitle {
-  text-align: center;
-  color: white;
-  display: block;
-}
-
-.section__title {
-  font-size: 3em;
-  line-height: 1;
-  margin: 0 0 20px;
-}
-
-.section__subtitle {
-  font-size: 1.2em;
-  line-height: 1.5;
-  opacity: .5;
-}
-.section__subtitle a {
-  color: inherit;
-}
-
-.project-carousel {
-  position: relative;
-  padding: 50px 0;
-}
-
-.project-strip {
-  margin: 150px 0 150px;
-  -webkit-filter: blur(10px);
-  filter: blur(10px);
-}
-.project-strip .project {
-  cursor: pointer;
-}
-.project-strip img {
-  max-width: 100%;
+.carousel-inner img {
   width: 100%;
-  height: auto;
+  max-height: 460px
 }
 
-.project-screen {
-  width: 768px;
-  height: 451px;
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  margin: auto;
+.carousel-control {
+  width: 0;
 }
-.project-screen .project-detail {
-  position: absolute;
-  left: 0;
-  right: 0;
-  width: 578px;
-  height: 361px;
-  margin: 32px auto 0;
-  z-index: 1;
-  background-color: #333;
-}
-.project-screen .screen-frame {
-  content: " ";
-  width: 768px;
-  height: 451px;
-  position: absolute;
-  background-image: url("https://dl.dropboxusercontent.com/u/26808427/cdn/experiments/training/macbook-frame.png");
+
+.carousel-control.left,
+.carousel-control.right {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  background-image: none;
   background-repeat: no-repeat;
-}
-.project-screen .project {
-  margin-right: -100%;
-  float: left;
-  cursor: move;
+  text-shadow: none;
 }
 
-/*----------------------------------End Carousel-------------------------------------------------------------*/
+.carousel-control.left span {
+  padding: 15px;
+}
+
+.carousel-control.right span {
+  padding: 15px;
+}
+
+.carousel-control .glyphicon-chevron-left,
+.carousel-control .glyphicon-chevron-right,
+.carousel-control .icon-prev,
+.carousel-control .icon-next {
+  position: absolute;
+  top: 45%;
+  z-index: 5;
+  display: inline-block;
+}
+
+.carousel-control .glyphicon-chevron-left,
+.carousel-control .icon-prev {
+  left: 0;
+}
+
+.carousel-control .glyphicon-chevron-right,
+.carousel-control .icon-next {
+  right: 0;
+}
+
+.carousel-control.left span,
+.carousel-control.right span {
+  background-color: #000;
+}
+
+.carousel-control.left span:hover,
+.carousel-control.right span:hover {
+  opacity: .7;
+  filter: alpha(opacity=70);
+}
+
+
+/* Carousel Header Styles */
+
+.header-text {
+  position: absolute;
+  top: 20%;
+  left: 1.8%;
+  right: auto;
+  width: 96.66666666666666%;
+  color: #fff;
+}
+
+.header-text h2 {
+  font-size: 40px;
+}
+
+.header-text h2 span {
+  background-color: #2980b9;
+  padding: 10px;
+}
+
+.header-text h3 span {
+  background-color: #000;
+  padding: 15px;
+}
+
+.btn-min-block {
+  min-width: 170px;
+  line-height: 26px;
+}
+
+.btn-theme {
+  color: #fff;
+  background-color: transparent;
+  border: 2px solid #fff;
+  margin-right: 15px;
+}
+
+.btn-theme:hover {
+  color: #000;
+  background-color: #fff;
+  border-color: #fff;
+}
+/*----------------------------------End carousel--------------------------------------------*/
 
 /*---------------------------------Pre loader-------------------------------------------*/
 .loader {
