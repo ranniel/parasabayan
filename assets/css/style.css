@@ -294,8 +294,6 @@ h3.text-center{
     height: 30px;
     border-bottom: 50px;
     width: 175px;
-    margin-left: 300px;
-    margin-right: 300px;
     border-style: solid;
     border-color: #10a0a8; 
     border-width: 1px 0 0 0; 
@@ -306,7 +304,7 @@ h3.text-center{
     display: block; 
     content: ""; 
     height: 30px;
-    border-bottom: 150px;
+    border-bottom: 50px;
     margin-top: -31px;
     border-style: solid; 
     border-color: #10a0a8; 
