@@ -177,7 +177,6 @@ p{
 
 /*----------------------------Caroussel------------------------------------------------------------------*/
 .carousel {
-    width: 3000px !important;
     overflow: hidden;
 }
 .carousel .item {
