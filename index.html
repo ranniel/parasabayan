@@ -146,35 +146,54 @@
 	<!-- /.main_menu -->
 	
 	<!-- Carousel start -->
-	<div class="">
-		<div class="row">
-			<div id="myCarousel" class="carousel  slide">
-				<!-- Dot Indicators -->
-				<ol class="carousel-indicators">
-					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-					<li data-target="#myCarousel" data-slide-to="1"></li>
-					<li data-target="#myCarousel" data-slide-to="2"></li>
-					<li data-target="#myCarousel" data-slide-to="3"></li>
-					<li data-target="#myCarousel" data-slide-to="4"></li>
-				</ol>
-				<!-- Items -->
-				<div class="carousel-inner">
-					<div class="active item"><img src="carouselimg/slider1.jpg" class="img-responsive"></div>
-					<div class="item"><img src="carouselimg/slider2.jpg" class="img-responsive"></div>
-					<div class="item"><img src="carouselimg/slider3.jpg" class="img-responsive"></div>
-					<div class="item"><img src="carouselimg/slider4.jpg" class="img-responsive"></div>
-					<div class="item"><img src="carouselimg/slider5.jpg" class="img-responsive"></div>
-				</div>
-				<!-- Navigation -->
-				<a class="left carousel-control" href="#myCarousel" data-slide="prev">
-					<span class="glyphicon glyphicon-chevron-left"></span>
-				</a>
-				<a class="right carousel-control" href="#myCarousel" data-slide="next">
-					<span class="glyphicon glyphicon-chevron-right"></span>
-				</a>
-			</div>
-		</div>
-	</div>
+	<div id="carousel" class="carousel slide carousel-fade" data-ride="carousel" data-interval="false">
+  <ol class="carousel-indicators">
+      <li data-target="#carousel" data-slide-to="0" class="active"></li>
+      <li data-target="#carousel" data-slide-to="1"></li>
+      <li data-target="#carousel" data-slide-to="2"></li>
+      <li data-target="#carousel" data-slide-to="3"></li>
+  </ol>
+  
+  <!-- Carousel items -->
+  <div class="carousel-inner">
+    <div class="item active">
+      <div class="slide-content">
+      	<img src="carouselimg/slider1.jpg" class="img-responsive">
+      </div>
+    </div>
+    <div class="item">
+      <div class="slide-content">
+      	<img src="carouselimg/slider2.jpg" class="img-responsive">
+      </div>
+    </div>
+    <div class="item">
+      <div class="slide-content">
+      	<img src="carouselimg/slider3.jpg" class="img-responsive">
+      </div>
+    </div>
+    <div class="item">
+      <div class="slide-content">
+        <video poster="http://192.241.175.50/videos/samo.jpg" webkit-playsinline id="bgvid" loop>
+          <source src="http://192.241.175.50/videos/samo.webm" type="video/webm">
+          <source src="http://192.241.175.50/videos/samo.mp4" type="video/mp4">
+        </video>
+        <div class="slide-overlay door">
+          <div class='title'>Slide 4</div>
+          <div class="description"> #PapaBlessUp </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <a class="carousel-control left" href="#carousel" data-slide="prev">
+   <span class="glyphicon glyphicon-chevron-left"></span>
+  </a>
+  
+  <a class="carousel-control right" href="#carousel" data-slide="next">
+   <span class="glyphicon glyphicon-chevron-right"></span>
+  </a>
+  
+</div>
 	<!-- Carousel End -->
 
 	<!-- Home_1 conference start -->
@@ -842,16 +861,7 @@
 	<script type="text/javascript" src="assets/js/custom.js"></script>
 
 	<script type="text/javascript">
-		$(document).ready(function() {
-			$('.carousel').carousel({
-				animateOut: 'slideOutDown',
-				animateIn: 'flipInX',
-				items:1,
-				margin:30,
-				stagePadding: 30,
-				smartSpeed:450
-			});
-		});
+
 	</script>
 
 </body>
