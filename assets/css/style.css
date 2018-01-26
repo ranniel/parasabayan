@@ -292,6 +292,8 @@ h3.text-center{
 hr.style-seven { 
     overflow: visible; /* For IE */ 
     padding-left: 250px;
+    padding-right: 250px;
+    width: 1400px;
     height: 30px;
     width: 300px;
     border-style: solid;
@@ -302,7 +304,7 @@ hr.style-seven {
 
 hr.style-seven:before { 
     display: block; 
-    content: ""; 
+    content: "ULAP PARTNERS"; 
     height: 30px;
     margin-top: -31px;
     border-style: solid; 
