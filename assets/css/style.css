@@ -292,7 +292,7 @@ h3.text-center{
 .style-seven { 
     overflow: visible; /* For IE */ 
     height: 30px;
-    border-bottom-width: 150px;
+    border-bottom-width: 50px;
     border-style: solid;
     border-color: #10a0a8; 
     border-width: 1px 0 0 0; 
