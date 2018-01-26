@@ -289,19 +289,21 @@ h3.text-center{
     font-family: Roboto, sans-serif;
 }
 
-hr.style-seven { 
+.style-seven { 
     overflow: visible; /* For IE */ 
     height: 30px;
+    border-bottom: 50px;
     border-style: solid;
     border-color: #10a0a8; 
     border-width: 1px 0 0 0; 
     border-radius: 20px; 
 }
 
-hr.style-seven:before { 
+.style-seven:before { 
     display: block; 
     content: ""; 
     height: 30px;
+    border-bottom: 150px;
     margin-top: -31px;
     border-style: solid; 
     border-color: #10a0a8; 
