@@ -147,7 +147,7 @@ p{
 }
 .section_bg{
 	position:relative;
-	background: grey;
+	background:#333;
 }
 .floatleft {
     float: left;
@@ -580,11 +580,11 @@ h3.text-center{
     }
     .footer_menu li:hover i ,
     .footer_menu li:hover a {
-        color: black;
+        color: red;
     }
     .footer_menu i {
         padding-right: 10px;
-        color: black;
+        color: #333;
     }
     .footer_img.home_footer_widget_content {
         padding-top: 29px;
