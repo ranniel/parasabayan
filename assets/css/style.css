@@ -176,64 +176,141 @@ p{
 }
 
 /*----------------------------Caroussel------------------------------------------------------------------*/
-/*
-inspired from http://codepen.io/Rowno/pen/Afykb
-& https://jsfiddle.net/q0rgL8ws/
-*/
-.carousel-fade .carousel-inner .item {
-  opacity: 0;
-  transition-property: opacity;
-    overflow:hidden;
-}
-.item.active img {
-    transition: transform 5000ms linear 0s;
-    /* This should be based on your carousel setting. For bs, it should be 5second*/
-    transform: scale(1.05, 1.05);
-}
-.carousel-fade .carousel-inner .active {
-  opacity: 1;
+.carousel-wrapper {
+  position: relative;
+  width: 600px;
+  height: 400px;
+  margin: 50px auto;
+  text-align: center;
 }
 
-.carousel-fade .carousel-inner .active.left,
-.carousel-fade .carousel-inner .active.right {
-  left: 0;
+.carousel {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  text-align: center;
+  box-shadow: 0 2px 7px rgba(0, 0, 0, 0.23);
+  background: white;
+}
+
+.carousel,
+img {
+  border-radius: 2px;
+}
+
+.slide {
+  height: 100%;
+  width: 100%;
   opacity: 0;
+  left: 100%;
   z-index: 1;
+  -webkit-transition: left 2s, opacity 3s;
+  transition: left 2s, opacity 3s;
+  position: absolute;
+}
+.slide.prev-slide {
+  left: -100%;
+}
+.slide.current {
+  left: 0;
+  opacity: 1;
+}
+.slide:before {
+  content: attr(annot);
+  position: absolute;
+  left: 40px;
+  bottom: 60px;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 14px;
+  font-weight: 300;
+  z-index: 4;
+  -webkit-transition: opacity 0.3s;
+  transition: opacity 0.3s;
+  text-shadow: 0 0 1px #000;
 }
 
-.carousel-fade .carousel-inner .next.left,
-.carousel-fade .carousel-inner .prev.right {
+.btn {
+  height: 60px;
+  width: 60px;
+  border: none;
+  background: white;
+  color: #ddd;
+  outline: none;
+  border-radius: 50%;
+  font-size: 1.1em;
+  border: 1px solid #c6c6c6;
+  -webkit-transition: all .2s;
+  transition: all .2s;
+}
+.btn:hover {
+  color: #424242;
+  cursor: pointer;
+}
+.btn.prev {
+  left: 0px;
+}
+.btn.next {
+  right: 0;
+}
+
+.clip-next,
+.clip-prev {
+  height: 60px;
+  z-index: 2;
+  margin-top: -30px;
+  top: 50%;
+  position: absolute;
+}
+
+.clip-prev {
+  left: -30px;
+}
+
+.clip-next {
+  right: -30px;
+}
+
+ul {
+  display: inline-block;
+  position: absolute;
+  z-index: 10;
+  bottom: 20px;
+  left: 50%;
+}
+
+.carousel-target {
+  cursor: pointer;
+  width: 15px;
+  height: 15px;
+  list-style: none;
+  display: inline-block;
+  background: #424242;
+  border-radius: 50%;
+  border: 1px solid #c6c6c6;
+  opacity: 0.7;
+  margin: 0 2px;
+}
+
+.selected {
+  background: #c6c6c6;
   opacity: 1;
 }
 
-.carousel-fade .carousel-control {
-  z-index: 2;
+#my-carousel-2 {
+  margin-top: 100px;
 }
-
-/*
-WHAT IS NEW IN 3.3: "Added transforms to improve carousel performance in modern browsers."
-now override the 3.3 new styles for modern browsers & apply opacity
-*/
-@media all and (transform-3d), (-webkit-transform-3d) {
-    .carousel-fade .carousel-inner > .item.next,
-    .carousel-fade .carousel-inner > .item.active.right {
-      opacity: 0;
-      -webkit-transform: translate3d(0, 0, 0);
-              transform: translate3d(0, 0, 0);
-    }
-    .carousel-fade .carousel-inner > .item.prev,
-    .carousel-fade .carousel-inner > .item.active.left {
-      opacity: 0;
-      -webkit-transform: translate3d(0, 0, 0);
-              transform: translate3d(0, 0, 0);
-    }
-    .carousel-fade .carousel-inner > .item.next.left,
-    .carousel-fade .carousel-inner > .item.prev.right,
-    .carousel-fade .carousel-inner > .item.active {
-      opacity: 1;
-      -webkit-transform: translate3d(0, 0, 0);
-              transform: translate3d(0, 0, 0);
-    }
+#my-carousel-2 .clip-prev {
+  clip: rect(0px, 60px, 60px, 30px);
+}
+#my-carousel-2 .clip-next {
+  clip: rect(0, 30px, 60px, 0);
+}
+#my-carousel-2 .prev {
+  padding-left: 20px;
+}
+#my-carousel-2 .next {
+  padding-right: 20px;
 }
 
 
