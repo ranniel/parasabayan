@@ -2389,7 +2389,7 @@ ul.d_amount {
                 left: 0;
             }
             .preloader {
-                background: #30ddb6 none repeat scroll 0 0;
+                background: white none repeat scroll 0 0;
                 height: 100%;
                 position: fixed;
                 width: 100%;
