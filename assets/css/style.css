@@ -1,14 +1,3 @@
-/*------------------------------------------------------------------- /
-
-Theme Name: Minister
-Theme URI: 
-Author: Setu Islam
-Author URI: 
-Description: 
-Version: 
-
---------------------------------------------------------------------- */
-
 /*---------------------------------------------
 Table Of Content
 	1.General css
@@ -158,7 +147,7 @@ p{
 }
 .section_bg{
 	position:relative;
-	background:#f6f6f6;
+	background: black;
 }
 .floatleft {
     float: left;
