@@ -180,6 +180,7 @@ p{
 h3.text-center{
     text-align: center;
     font-family: Roboto, sans-serif;
+    color: black;
 }
 
 .style-seven { 
@@ -202,6 +203,10 @@ h3.text-center{
     border-color: #10a0a8; 
     border-width: 0 0 1px 0;
     border-radius: 20px; 
+}
+
+.text-blue{
+    color:#366ec9;
 }
 /*-------------------------------/Hr-----------------------------------------------------*/
 
