@@ -317,7 +317,7 @@ h3.text-center{
 body.preloader{
     margin: 0px;
     padding: 0px;
-    background-color: #000;
+    background-color: #000 !important;
 
 }
 
