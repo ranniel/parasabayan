@@ -332,6 +332,42 @@ p{
     filter: alpha(opacity=100);
 }
 
+/********************************/
+/*       Slides backgrounds     */
+/********************************/
+#first-slider .slide1 {
+    background-image: url(carouselimg/porkslider1.jpg);
+      background-size: cover;
+    background-repeat: no-repeat;
+}
+#first-slider .slide2 {
+  background-image: url(carouselimg/porkslider2.jpg);
+      background-size: cover;
+    background-repeat: no-repeat;
+}
+#first-slider .slide3 {
+  background-image: url(carouselimg/porkslider3.jpg);
+      background-size: cover;
+    background-repeat: no-repeat;
+}
+#first-slider .slide4 {
+  background-image: url(carouselimg/porkslider4.jpg);
+      background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+
+/********************************/
+/*          Media Queries       */
+/********************************/
+@media screen and (min-width: 980px){
+      
+}
+@media screen and (max-width: 640px){
+      
+}
 /*----------------------------------End carousel--------------------------------------------*/
 
 /*--------------------------------Hr:styleseven------------------------------------------*/
