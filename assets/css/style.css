@@ -147,7 +147,7 @@ p{
 }
 .section_bg{
 	position:relative;
-	background:#333;
+	background: grey;
 }
 .floatleft {
     float: left;
