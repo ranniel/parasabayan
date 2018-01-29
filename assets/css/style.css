@@ -314,13 +314,6 @@ h3.text-center{
 
 
 /*---------------------------------Pre loader-------------------------------------------*/
-body.preloader{
-    margin: 0px;
-    padding: 0px;
-    background-color: #000 !important;
-
-}
-
 ul{
     position: absolute;
     top:50%;
@@ -335,7 +328,7 @@ ul li{
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  background-color: #fff;
+  background-color: #000;
   animation: animate 1.6s ease-in-out infinite;
   margin: 0px;
   padding: 0;
