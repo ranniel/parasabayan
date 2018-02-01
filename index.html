@@ -762,11 +762,17 @@
 	<script type="text/javascript" src="assets/js/custom.js"></script>
 
 	<script type="text/javascript">
-		$(document).ready(function() {
-			$('#media').carousel({
-				pause: false,
-				interval: 3000,
-			});
+		$('#media').owlCarousel({
+			center: true,
+			items:2,
+			loop:true,
+			interval: 3000,
+			margin:10,
+			responsive:{
+				600:{
+					items:4
+				}
+			}
 		});
 	</script>
 
