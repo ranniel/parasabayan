@@ -229,26 +229,26 @@
 						<div class="item">
 							<div class="row">
 								<div class="col-md-4">
-									<a class="img-responsive" href="#"><img alt="" src="http://placehold.it/150x150"></a>
+									<a class="thumbnail" href="#"><img alt="" src="http://placehold.it/150x150"></a>
 								</div>          
 								<div class="col-md-4">
-									<a class="img-responsive" href="#"><img alt="" src="http://placehold.it/150x150"></a>
+									<a class="thumbnail" href="#"><img alt="" src="http://placehold.it/150x150"></a>
 								</div>
 								<div class="col-md-4">
-									<a class="img-responsive" href="#"><img alt="" src="http://placehold.it/150x150"></a>
+									<a class="thumbnail" href="#"><img alt="" src="http://placehold.it/150x150"></a>
 								</div>        
 							</div>
 						</div>
 						<div class="item">
 							<div class="row">
 								<div class="col-md-4">
-									<a class="img-responsive" href="#"><img alt="" src="http://placehold.it/150x150"></a>
+									<a class="thumbnail" href="#"><img alt="" src="http://placehold.it/150x150"></a>
 								</div>          
 								<div class="col-md-4">
-									<a class="img-responsive" href="#"><img alt="" src="http://placehold.it/150x150"></a>
+									<a class="thumbnail" href="#"><img alt="" src="http://placehold.it/150x150"></a>
 								</div>
 								<div class="col-md-4">
-									<a class="img-responsive" href="#"><img alt="" src="http://placehold.it/150x150"></a>
+									<a class="thumbnail" href="#"><img alt="" src="http://placehold.it/150x150"></a>
 								</div>      
 							</div>
 						</div>
@@ -762,17 +762,11 @@
 	<script type="text/javascript" src="assets/js/custom.js"></script>
 
 	<script type="text/javascript">
-		$('#media').owlCarousel({
-			center: true,
-			items:2,
-			loop:true,
-			interval: 3000,
-			margin:10,
-			responsive:{
-				600:{
-					items:4
-				}
-			}
+		$(document).ready(function() {
+			$('#media').carousel({
+				pause: false,
+				interval: 3000,
+			});
 		});
 	</script>
 
