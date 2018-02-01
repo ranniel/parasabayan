@@ -321,6 +321,7 @@ h3.text-center{
   margin-bottom: 0;
   padding: 0 40px 30px 40px;
   margin-top: 30px;
+  text-align: center;
 }
 /* Previous button  */
 .media-carousel .carousel-control.left 
@@ -330,8 +331,8 @@ h3.text-center{
   background: none repeat scroll 0 0 #222222;
   border: 4px solid #FFFFFF;
   border-radius: 23px 23px 23px 23px;
-  height: 50px;
-  width : 100px;
+  height: 40px;
+  width : 40px;
   margin-top: 30px
 }
 /* Next button  */
@@ -342,8 +343,8 @@ h3.text-center{
   background: none repeat scroll 0 0 #222222;
   border: 4px solid #FFFFFF;
   border-radius: 23px 23px 23px 23px;
-  height: 50px;
-  width : 100px;
+  height: 40px;
+  width : 40px;
   margin-top: 30px
 }
 /* Changes the position of the indicators */
