@@ -405,15 +405,15 @@ h3.text-center{
 }
 .minister_button .btn-default {
     color: #fff;
-    background-color: #f01616;
-    border-color: #f01616;
+    background-color: #366ec9;
+    border-color: #366ec9;
 }
 .minister_button .btn {
     padding: 5px 22px;
     border-radius: 18px;
 }
 .minister_button .btn-default:hover {
-    color: #f01616;
+    color: #366ec9;
     background-color: #fff;
     border-color: #f01616;
 }
