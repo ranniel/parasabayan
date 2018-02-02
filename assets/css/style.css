@@ -406,16 +406,16 @@ h3.text-center{
 .minister_button .btn-default {
     color: #fff;
     background-color: #366ec9;
-    border-color: #366ec9;
+    border-color: #f01616;
 }
 .minister_button .btn {
     padding: 5px 22px;
     border-radius: 18px;
 }
 .minister_button .btn-default:hover {
-    color: #366ec9;
+    color: #f01616;
     background-color: #fff;
-    border-color: #366ec9;
+    border-color: #f01616;
 }
 .minister_button .btn-default.active.focus, 
 .minister_button  .btn-default.active:focus, 
