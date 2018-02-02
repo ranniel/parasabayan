@@ -415,7 +415,7 @@ h3.text-center{
 .minister_button .btn-default:hover {
     color: #366ec9;
     background-color: #fff;
-    border-color: #f01616;
+    border-color: #366ec9;
 }
 .minister_button .btn-default.active.focus, 
 .minister_button  .btn-default.active:focus, 
