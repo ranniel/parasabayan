@@ -34,7 +34,7 @@ Table Of Content
 		i.Issue Right Sidebar
 		ii.Issue Inner page
 	6.Main Event Page	
-		i.Event Campaign
+		i.Event ulap
 		ii.Event Volunteer
 	7.Upcoming Events page
 	8.Events Single page	
@@ -165,37 +165,21 @@ p{
 }
 
 
-/*--------------------------------Hr:styleseven------------------------------------------*/
-h3.text-center{
-    text-align: center;
-    font-family: Roboto, sans-serif;
-    color: black;
+/*--------------------------------Hr:16------------------------------------------*/
+hr.style16 { 
+  border-top: 1px dashed #8c8b8b; 
+} 
+hr.style16:after { 
+  content: '\002702'; 
+  display: inline-block; 
+  position: relative; 
+  top: -12px; 
+  left: 40px; 
+  padding: 0 3px; 
+  background: #f0f0f0; 
+  color: #8c8b8b; 
+  font-size: 18px; 
 }
-
-.style-seven { 
-    overflow: visible; /* For IE */ 
-    height: 30px;
-    border-bottom: 50px !important;
-    border-style: solid;
-    border-color: #10a0a8; 
-    border-width: 1px 0 0 0; 
-    border-radius: 20px; 
-}
-
-.style-seven:before { 
-    display: block; 
-    content: ""; 
-    height: 30px;
-    border-bottom: 50px;
-    margin-top: -31px;
-    border-style: solid; 
-    border-color: #10a0a8; 
-    border-width: 0 0 1px 0;
-    border-radius: 20px; 
-}
-
-.text-blue{
-    color:#366ec9 !important;
 }
 /*-------------------------------/Hr-----------------------------------------------------*/
 
@@ -348,11 +332,11 @@ h3.text-center{
 }
 /* a. Main Menu */
 
-.home1_main_menu .minister_button {
+.home1_main_menu .ulap_button {
     padding-left: 30px;
     right: 0;
 }
-.minister_button {
+.ulap_button {
     position: relative;
     right: 15px;
     top: 32px;
@@ -403,26 +387,26 @@ h3.text-center{
 	border: transparent;
     border-top: transparent;
 }
-.minister_button .btn-default {
+.ulap_button .btn-default {
     color: #fff;
     background-color: #366ec9;
     border-color: #366ec9;
 }
-.minister_button .btn {
+.ulap_button .btn {
     padding: 5px 22px;
     border-radius: 18px;
 }
-.minister_button .btn-default:hover {
+.ulap_button .btn-default:hover {
     color: #f01616;
     background-color: #fff;
     border-color: #f01616;
 }
-.minister_button .btn-default.active.focus, 
-.minister_button  .btn-default.active:focus, 
-.minister_button  .btn-default.active:hover,
-.minister_button  .btn-default:active.focus, 
-.minister_button  .btn-default:active:focus, 
-.minister_button  .btn-default:active:hover, 
+.ulap_button .btn-default.active.focus, 
+.ulap_button  .btn-default.active:focus, 
+.ulap_button  .btn-default.active:hover,
+.ulap_button  .btn-default:active.focus, 
+.ulap_button  .btn-default:active:focus, 
+.ulap_button  .btn-default:active:hover, 
 .open>.dropdown-toggle.btn-default.focus, 
 .open>.dropdown-toggle.btn-default:focus, 
 .open>.dropdown-toggle.btn-default:hover {
@@ -442,7 +426,7 @@ h3.text-center{
 }
 
 /* b.Banner */
-#minister_banner,
+#ulap_banner,
 #event_volunteer{
 	position:relative;
 	overflow:hidden;
@@ -488,8 +472,8 @@ h3.text-center{
 }
 
 /* c.Transition */
-.minister_button .btn-default ,
-.minister_timer_button .btn-default,
+.ulap_button .btn-default ,
+.ulap_timer_button .btn-default,
 .home1_mission_title i,
 .home1_donation_video .play-icon i,
 .gallery_overlay,
@@ -507,10 +491,10 @@ h3.text-center{
 }
 
 /* d.Overlay */
-.minister_banner_overlay{
+.ulap_banner_overlay{
 	background: rgba(0, 0, 0, 0.6);
 }
-.minister_banner_overlay,
+.ulap_banner_overlay,
 .home_banner_overlay,
 .home1_volunteer_overlay,
 .about_overlay,
@@ -765,28 +749,28 @@ h3.text-center{
             font-size: 30px;
             font-weight: 400;
         }
-        .minister_timer_button,
-        .minister_timer_button1{
+        .ulap_timer_button,
+        .ulap_timer_button1{
          margin-top:20px;
      }
-     .minister_timer_button .btn-default,
-     .minister_timer_button1 .btn-default {
+     .ulap_timer_button .btn-default,
+     .ulap_timer_button1 .btn-default {
         color: #fff;
         background-color: #033566;
         border-color: #033566;
     }
-    .minister_timer_button1 .btn-default:active:focus{
+    .ulap_timer_button1 .btn-default:active:focus{
      color: #fff;
      background-color: #033566;
      border-color: #033566;
  }
- .minister_timer_button .btn-default:hover{
+ .ulap_timer_button .btn-default:hover{
     color: #033566;
     background-color: #fff;
     border-color: #033566;
 }
-.minister_timer_button .btn,
-.minister_timer_button1 .btn {
+.ulap_timer_button .btn,
+.ulap_timer_button1 .btn {
 	padding: 8px 36px;
     font-size: 15px;
     border-radius: 20px;
@@ -986,10 +970,10 @@ ul.d_amount {
     font-weight: 400;
     color: #727272;
 }
-.home1_donation_form .minister_timer_button {
+.home1_donation_form .ulap_timer_button {
     margin-top: 30px;
 }
-.home1_donation_form .minister_timer_button .btn {
+.home1_donation_form .ulap_timer_button .btn {
     border-radius: 16px;
     width: 125px;
     height: 34px;
@@ -1089,16 +1073,16 @@ ul.d_amount {
             margin: auto;
             padding-top: 15px;
         }
-        .home1_volunteer .minister_timer_button{
+        .home1_volunteer .ulap_timer_button{
          margin-top: 38px;
      }
-     .home1_volunteer .minister_timer_button .btn {
+     .home1_volunteer .ulap_timer_button .btn {
         font-size: 13px;
     }
-    .home1_volunteer .minister_timer_button .btn-default {
+    .home1_volunteer .ulap_timer_button .btn-default {
         color: #fefefe;
     }
-    .home1_volunteer .minister_timer_button .btn-default:hover{
+    .home1_volunteer .ulap_timer_button .btn-default:hover{
         color: #033566;
     }
 
@@ -1120,7 +1104,7 @@ ul.d_amount {
      .home1_news_txt1 {
         padding-top: 12px;
     }
-    .minister_read_more_button a{
+    .ulap_read_more_button a{
         font-size: 12px;
         color: #f01616;
         font-weight: 700;
@@ -1128,7 +1112,7 @@ ul.d_amount {
     .news_date a {
         padding-left: 12px;
     }
-    .minister_read_more_button {
+    .ulap_read_more_button {
         padding-top: 5px;
     }
 
@@ -1600,9 +1584,9 @@ ul.d_amount {
 
 /*-------------------------------------------------------
 ------------------------------------------------
-			i.Event Campaign
+			i.Event ulap
             --------------------------------------------------------*/
-            #event_campaign {
+            #event_ulap {
                 position: relative;
                 overflow: hidden;
                 padding-bottom: 95px;
@@ -1610,7 +1594,7 @@ ul.d_amount {
             .event_banner{
              background:url(../../images/events/event_banner.jpg)no-repeat;
          }
-         .event_campaign {
+         .event_ulap {
             padding-top: 78px;
         }
         .event_container {
@@ -1640,7 +1624,7 @@ ul.d_amount {
   .event-grid-item img{
      width:100%;
  } 
- .event_campaign .event_txt,
+ .event_ulap .event_txt,
  .upcoming_events  .event_txt {
     padding: 0 0 22px 38px;
     color: #fff;
@@ -1747,22 +1731,22 @@ ul.d_amount {
         .event_volunteer_txt p {
             padding-top: 15px;
         }
-        .event_buttons .minister_timer_button {
+        .event_buttons .ulap_timer_button {
          margin: 38px 15px 0;
      }
-     .event_buttons .minister_timer_button .btn {
+     .event_buttons .ulap_timer_button .btn {
         padding: 6px 0;
         font-size: 14px;
         border-radius: 16px;
         width: 112px;
         height: 35px;
     }
-    .event_buttons  .minister_timer_button .btn-default {
+    .event_buttons  .ulap_timer_button .btn-default {
         color: #fff;
         background-color: transparent;
         border-color: #f01616;
     }
-    .event_buttons  .minister_timer_button .btn-default:hover {
+    .event_buttons  .ulap_timer_button .btn-default:hover {
         color: #fff;
         background-color: #f01616;
         border-color: #f01616;
@@ -1943,7 +1927,7 @@ ul.d_amount {
             .volunteer_banner{
              background:url(../../images/pages/volunteer_banner.jpg)no-repeat;
          }
-         .volunteer_form .minister_timer_button {
+         .volunteer_form .ulap_timer_button {
             margin-top: 40px;
         }
         .volunteer_form  label {
@@ -2227,7 +2211,7 @@ ul.d_amount {
         .Blog_review_form textarea.form-control {
             height: 230px;
         }
-        .minister_timer_button.read_more_submit_btn .btn {
+        .ulap_timer_button.read_more_submit_btn .btn {
             padding: 8px 12px;
             font-size: 14px;
             border-radius: 20px;
@@ -2245,17 +2229,17 @@ ul.d_amount {
         .donation-form.contact-form textarea.form-control {
             height: 180px;
         }
-        .contact-form  .minister_timer_button {
+        .contact-form  .ulap_timer_button {
             margin-top: 30px;
         }
-        .home1_donation_form .contact-form .minister_timer_button .btn {
+        .home1_donation_form .contact-form .ulap_timer_button .btn {
             height: 40px;
             border-radius: 0;
             width: 100%;
             font-size: 14px;
             font-weight: 600;
         }
-        .minister_map_display{
+        .ulap_map_display{
          width:100%;
          height:360px;	
      }
@@ -2350,3 +2334,276 @@ ul.d_amount {
     text-align: justify;
 }
 
+.hideme
+{
+    opacity:0;
+}
+
+.text-white{
+    color: white;
+}
+
+#map {
+    height: 400px;
+    width: 500%;
+}
+
+.header-tp .navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 0px;
+    border: 1px solid transparent;
+}
+
+.header-tp .navbar-default {
+    background-color: #1DB9EC;
+    border-color:transparent!important;
+}
+.header-tp .bdr li:nth-child(odd) 
+{
+    border-left: 1px solid rgba(255, 255, 255, 0.44);
+
+}
+
+.header-tp .bdr li:nth-child(even) 
+{
+    border-right: 1px solid rgba(255, 255, 255, 0.44);
+    border-left: 1px solid rgba(255, 255, 255, 0.44);
+}
+.header-tp .bdr li
+{
+    padding:10px 0px;
+}
+.header-tp .bdr li a
+{
+    color:#fff!important;
+}
+
+.header-tp .pddr
+{
+    padding-top:5px;
+}
+
+.header-tp .navbar-right {
+    float: right !important;
+    margin-right: 30px;
+}
+
+.header-tp  .nav > li {
+    position: relative;
+    display: inline-block;
+}
+
+.btn-blu {
+    display: inline-block;
+    padding: 10px 35px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 0px;
+    background-color: #0D4459;
+    border-color: #0D4459;
+    color: #fff;
+}      
+.mrgn-top
+{
+    margin-top:15px;
+    margin-right:15px;
+}    
+
+.header-tp
+{
+    margin: 10px 0px;
+}    
+
+/*######################## LOGIN/SIGNUP PAGE START ##################################*/
+.at-login-form .btn-fb
+{
+    display: inline-block;
+    padding: 18px 20px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 0px;
+    background-color: #4568B2;
+    width: 100%;
+    margin-top: 10px;
+    color:#fff;
+}
+
+.at-login-form .btn-gp
+{
+    display: inline-block;
+    padding: 18px 20px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid #eee;
+    border-radius: 0px;
+    background-color: #FFFFFF;
+    width: 100%;
+    margin-top: 10px;
+    color:#000;
+}
+
+.at-login-form .btn-lgin
+{
+    display: inline-block;
+    padding: 18px 20px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid #eee;
+    border-radius: 0px;
+    background-color: #1DB9EC;
+    width: 100%;
+    margin-top: 10px;
+    color:#fff;
+}
+.at-login-form .signup-or-separator {
+    background: none;
+    height: 34px;
+    position: relative;
+    text-align: center;
+}
+.at-login-form .signup-or-separator--text {
+    background-color: #fff;
+    display: inline-block;
+    padding: 8px;
+}
+
+.at-login-form .h6 {
+    font-size: 14px;
+    font-weight: bold;
+    color: #757575;
+    line-height: 1.1;
+    text-rendering: optimizelegibility;
+}
+
+.at-login-form .signup-or-separator hr {
+    margin: -25px auto 10px;
+    width: 100%;    
+ }
+ 
+ .at-login-form .form-control-form {
+    display: block;
+    width: 100%;
+    height: 54px;
+    padding: 15px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 0px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    margin-top: 3px;
+}   
+ .at-login-form .frgt-pswd
+{
+    margin: 5px 0 10px;
+color: red;
+}
+
+ .at-login-form .btn-gst
+{
+    display: inline-block;
+padding: 6px 12px;
+margin-bottom: 0;
+font-size: 14px;
+font-weight: 400;
+line-height: 1.42857143;
+text-align: center;
+white-space: nowrap;
+vertical-align: middle;
+-ms-touch-action: manipulation;
+touch-action: manipulation;
+cursor: pointer;
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+background-image: none;
+border: 1px solid #000;
+border-radius: 0px;
+background-color: transparent;
+}
+
+ .at-login-form .ta-l
+{
+    text-align:left;
+    margin-top: 5px;
+}
+
+ .at-login-form .modal-dialog {
+    width: 500px;
+    margin: 30px auto;
+}
+
+.at-login-form .modal-content
+{
+    padding: 0px 10px;
+}
+
+.at-login-form  .modal-header {
+    padding: 10px 10px;
+    border-bottom: 0px solid #e5e5e5;
+}
+.blue-bg-nav
+{
+    background-color:#1DB9EC;
+/*######################## LOGIN/SIGNUP PAGE  END ##################################*/
